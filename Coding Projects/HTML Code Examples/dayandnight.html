@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day and Night Toggle Slider</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            transition: background-color 1s ease, background-image 1s ease;
+            overflow: hidden;
+            background-color: #87CEEB; /* Day sky blue */
+        }
+
+        /* Toggle Switch Styles */
+        .toggle-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 60px;
+            height: 34px;
+            display: inline-block;
+        }
+
+        .toggle-switch input {
+            display: none;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #2196F3;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: yellow; /* Sun color */
+            border-radius: 50%;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #555; /* Night sky */
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(26px);
+            background-color: white; /* Moon color */
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        /* Clouds */
+        .cloud {
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            opacity: 0.8;
+            filter: blur(1px);
+        }
+
+        #cloud1 {
+            width: 120px;
+            height: 60px;
+            top: 100px;
+            left: 50px;
+            animation: moveClouds 60s linear infinite;
+        }
+
+        #cloud2 {
+            width: 180px;
+            height: 90px;
+            top: 150px;
+            left: 300px;
+            animation: moveClouds 80s linear infinite;
+        }
+
+        #cloud3 {
+            width: 150px;
+            height: 75px;
+            top: 80px;
+            left: 600px;
+            animation: moveClouds 100s linear infinite;
+        }
+
+        @keyframes moveClouds {
+            from { transform: translateX(-200px); }
+            to { transform: translateX(1200px); }
+        }
+
+        /* Stars */
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            opacity: 0;
+            animation: twinkle 2s infinite alternate;
+        }
+
+        @keyframes twinkle {
+            from { opacity: 0.2; }
+            to { opacity: 1; }
+        }
+
+        /* Hide stars initially */
+        .star {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Toggle Switch -->
+    <div class="toggle-container">
+        <label class="toggle-switch">
+            <input type="checkbox" id="toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <!-- Clouds -->
+    <div class="cloud" id="cloud1"></div>
+    <div class="cloud" id="cloud2"></div>
+    <div class="cloud" id="cloud3"></div>
+
+    <!-- Stars -->
+    <div class="star" style="top: 30px; left: 100px;"></div>
+    <div class="star" style="top: 200px; left: 250px;"></div>
+    <div class="star" style="top: 150px; left: 400px;"></div>
+    <div class="star" style="top: 80px; left: 550px;"></div>
+    <div class="star" style="top: 250px; left: 700px;"></div>
+    <div class="star" style="top: 50px; left: 850px;"></div>
+    <div class="star" style="top: 180px; left: 1000px;"></div>
+    <div class="star" style="top: 120px; left: 1150px;"></div>
+
+    <script>
+        const toggleInput = document.getElementById('toggle');
+        const body = document.body;
+        const clouds = document.querySelectorAll('.cloud');
+        const stars = document.querySelectorAll('.star');
+
+        toggleInput.addEventListener('change', () => {
+            if (toggleInput.checked) {
+                // Switch to Night Mode
+                body.style.backgroundColor = '#000033'; // Night sky
+                clouds.forEach(cloud => {
+                    cloud.style.display = 'none';
+                });
+                stars.forEach(star => {
+                    star.style.display = 'block';
+                });
+            } else {
+                // Switch to Day Mode
+                body.style.backgroundColor = '#87CEEB'; // Day sky
+                clouds.forEach(cloud => {
+                    cloud.style.display = 'block';
+                });
+                stars.forEach(star => {
+                    star.style.display = 'none';
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

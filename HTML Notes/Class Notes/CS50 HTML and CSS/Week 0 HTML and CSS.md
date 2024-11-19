@@ -115,7 +115,40 @@ There is also a way to link your files and external links to a page using the `<
 </html>
 ```
 
+## Tables
+tables `<table></table>` are more complex as they have headers `<thead>`, rows `<tr>`, a heading `<th>` a body `<tbody>` and data `<td>`. 
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Average Depth</th>
+                    <th>Maximum Depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific Ocean</td>
+                    <td>4,280 m</td>
+                    <td>10,911 m</td>
+                </tr>
+                <tr>
+                    <td>Atlantic Ocean</td>
+                    <td>3,646 m</td>
+                    <td>8,486 m</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+```
 # CSS
 
 # Responsive Design
