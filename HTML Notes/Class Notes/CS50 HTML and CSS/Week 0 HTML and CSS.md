@@ -116,7 +116,7 @@ There is also a way to link your files and external links to a page using the `<
 ```
 
 ## Tables
-tables `<table></table>` are more complex as they have headers `<thead>`, rows `<tr>`, a heading `<th>` a body `<tbody>` and data `<td>`. 
+tables `<table></table>` are more complex as they have headers `<thead>`, rows `<tr>`, a heading `<th>` a body `<tbody>` and data `<td>`. In our case the heading isn't needing a row but we supply one. but you can see how the tables stacks and the data is observed.
 
 ```html
 <!DOCTYPE html>
@@ -149,6 +149,29 @@ tables `<table></table>` are more complex as they have headers `<thead>`, rows `
     </body>
 </html>
 ```
+
+## Forms
+Forms are the interactive part of the page. Here we can create many different items, similar to pythons TKinter and its modules. inputs `<input>` is similar to [[#Images]] where you have **attributes** that are added to the inside and you dictate what that input type is. here we use:
+- `type=` describing the input type. Here we have a text bod and submit button.
+- `placeholder=` What is in the input box at the start
+- `name=` what is the name of the input variables
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <Form>
+            <input type="text" placeholder="Full Name" name="full_name">
+            <input type="submit">
+        </Form>
+    </body>
+</html>
+```
+
+
 # CSS
 
 # Responsive Design
