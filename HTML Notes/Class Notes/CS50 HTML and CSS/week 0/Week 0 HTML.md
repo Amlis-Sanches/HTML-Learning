@@ -1,9 +1,9 @@
 ---
-author:
-  - Brian Yu
+author: Brian Yu
 aliases:
   - HTML
   - CSS
+source: https://cs50.harvard.edu/web/2020/weeks/0/
 ---
 # HTML
 
@@ -171,6 +171,7 @@ Forms are the interactive part of the page. Here we can create many different it
 </html>
 ```
 
+Now this isn't the end of forms and there is so much more you can add to them but here is the beginning examples of how to use forms. 
 
 # CSS
 
