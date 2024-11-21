@@ -11,10 +11,14 @@
             "id": "1fec2073d1b2df59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Class Notes/CS50 HTML and CSS/Week 2/Lecture 2 - CS50's Web Programming with Python and JavaScript.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 2 - CS50's Web Programming with Python and JavaScript"
             }
           }
         ]
@@ -158,24 +162,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1fec2073d1b2df59",
+  "active": "9ef687855d3b7517",
   "lastOpenFiles": [
+    "Class Notes/CS50 HTML and CSS/Week 2",
+    "HTML First Start.md",
+    "Class Notes/CS50 HTML and CSS/Week 2/Lecture 2 - CS50's Web Programming with Python and JavaScript.md",
+    "Other Notes/HTML Programming with Visual Studio Code.md",
+    "Class Notes/CS50 HTML and CSS/Week 1/Lecture 1 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Class information.md",
-    "Class Notes/CS50 HTML and CSS/week 0/Lecture 0 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/week 0/CSS.md",
+    "Class Notes/CS50 HTML and CSS/Week 1",
+    "Untitled",
+    "Class Notes/CS50 HTML and CSS/week 0/Lecture 0 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/week 0/HTML.md",
     "Class Notes/CS50 HTML and CSS/week 0",
     "Class Notes/CS50 HTML and CSS/week 0/Search - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/src0.zip",
     "Class Notes/CS50 HTML and CSS",
-    "HTML First Start.md",
-    "Other Notes/HTML Programming with Visual Studio Code.md",
     "Clippings",
     "Welcome.md",
     "Other Notes",
     "Project Notes",
     "Class Notes",
-    "z_Attachments",
-    "_Templates"
+    "z_Attachments"
   ]
 }
