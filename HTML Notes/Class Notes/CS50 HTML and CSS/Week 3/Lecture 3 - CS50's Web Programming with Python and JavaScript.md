@@ -51,7 +51,8 @@ After receiving a request, a server will then send back an HTTP response, which 
 
 ### Creating a Django Project
 After installing Django, we can go through the steps of creating a new Django project:
-
+> [!bug]
+> Seems I cannot just run this project anymore and now need to create a [[virtual python environment]] before running this code. 
 1. Run `django-admin startproject PROJECT_NAME` to create a number of starter files for our project.
 2. Run `cd PROJECT_NAME` to navigate into your new project’s directory.
 3. Open the directory in your text editor of choice. You’ll notice that some files have been created for you. We won’t need to look at most of these for now, but there are three that will be very important from the start:
