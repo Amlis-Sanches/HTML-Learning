@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b66c80723151147",
+        "id": "22ad9795f6db9e33",
         "type": "tabs",
         "children": [
           {
-            "id": "01a43ab37c7b2a3c",
+            "id": "5b1fb08b9584be4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/CS50 HTML and CSS/Week 3/virtual python environment.md",
+                "file": "Class Notes/CS50 HTML and CSS/Week 3/Django.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "virtual python environment"
+              "title": "Django"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "43fd49881cb97e0a",
@@ -163,10 +164,11 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "01a43ab37c7b2a3c",
+  "active": "5b1fb08b9584be4d",
   "lastOpenFiles": [
-    "Class Notes/CS50 HTML and CSS/Week 3/Lecture 3 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3/virtual python environment.md",
+    "Class Notes/types of python.md",
+    "Class Notes/CS50 HTML and CSS/Week 3/Lecture 3 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3/Django.md",
     "Class Notes/CS50 HTML and CSS/Week 2/Lecture 2 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3",
