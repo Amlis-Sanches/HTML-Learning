@@ -150,7 +150,7 @@ def index(request):
         "newyear": now.month == 1 and now.day == 1
     })
 ```
-This will send a TRUE or FALSE response. Then in the HTML template we can create a if statement by using `{%%}`.  Where with a bool value you can determine the heading that is displayed. Then when opening the view of the HTML page you will only see the h1 that passed. 
+This will send a TRUE or FALSE response. Then in the HTML template we can create a if statement by using `{%%}`.  Where with a bool value you can determine the heading that is displayed. Then when opening the view of the HTML page you will only see the h1 that passed. when closing logic you need to put the {% endif %}.
 
 ```html
 <!DOCTYPE html>
@@ -167,3 +167,39 @@ This will send a TRUE or FALSE response. Then in the HTML template we can create
     </body>
 </html>
 ```
+
+### CSS in Django
+### Create a Static file
+First thing to do is to create a new .css file for you to load into the HTML. Using Django you need to create a new file path within your application folder. Using newyear as an example we need to create a new folder path and file as follow: `static/newyear/styles.css`. The reason for putting these files into a folder called static is that these files don't change and won't when programming the webpage.
+
+```css
+h1 {
+    font-family: sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+```
+
+### Pull CSS into HTML
+Once the file is created you can pull the CSS file with Django by loading the static library at the beginning of the HTML code with `{% load static %}`. and then just like we learned with [[CSS|CSS3]] we need to load the specific CSS file. But this time we are we are going to modify the link to the css file with `<link href="{% static "newyear/styles.css" %}" rel="stylesheet">`
+This not only means that this will load the URLs for the static file but if the file is moved you will automatically have the HTML files updated. 
+
+```html
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Is it New Year's?</title>
+        <link href="{% static "newyear/styles.css" %}" rel="stylesheet">
+    </head>
+    <body>
+        {% if newyear %}
+            <h1>YES</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+    </body>
+</html>
+```
+
+## Example Program TASKS

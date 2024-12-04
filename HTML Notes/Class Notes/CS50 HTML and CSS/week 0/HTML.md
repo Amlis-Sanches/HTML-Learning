@@ -6,7 +6,7 @@ aliases:
 source: https://cs50.harvard.edu/web/2020/weeks/0/
 ---
 # HTML
-
+HTML is a template programming language that creates static files. 
 ## First Program
 Here we will create a program in visual studio code called `Hello.html`. Here we will copy the following lines bellow. This will give us our first code. Now for us we have the Live Server extension installed in our visual studio code, so if we right click the file and run server we will get a page that has a tittle 'Hello!' and a text with "Hello, World!".
 
