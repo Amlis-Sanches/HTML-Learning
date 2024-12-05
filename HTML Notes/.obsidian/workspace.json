@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/CS50 HTML and CSS/Week 3/Django.md",
+                "file": "Class Notes/CS50 HTML and CSS/Week 3/Tasks Example Program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Django"
+              "title": "Tasks Example Program"
             }
           },
           {
@@ -179,8 +179,9 @@
   },
   "active": "5b1fb08b9584be4d",
   "lastOpenFiles": [
-    "Class Notes/CS50 HTML and CSS/Week 3/Lecture 3 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3/Django.md",
+    "Class Notes/CS50 HTML and CSS/Week 3/Tasks Example Program.md",
+    "Class Notes/CS50 HTML and CSS/Week 3/Lecture 3 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/week 0/HTML.md",
     "Class Notes/CS50 HTML and CSS/Week 3/virtual python environment.md",
     "Class Notes/types of python.md",

@@ -202,4 +202,3 @@ This not only means that this will load the URLs for the static file but if the 
 </html>
 ```
 
-## Example Program TASKS
