@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class Notes/CS50 HTML and CSS/Search - CS50's Web Programming with Python and JavaScript.md",
+                "file": "Class Notes/CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Search - CS50's Web Programming with Python and JavaScript"
+              "title": "Lecture 4 - CS50's Web Programming with Python and JavaScript"
             }
           }
         ]
@@ -163,11 +163,13 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "9ef687855d3b7517",
+  "active": "a1dfecbc051fdb7e",
   "lastOpenFiles": [
+    "Class Notes/CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
+    "Other Notes/SQL Tutorial.md",
+    "Class Notes/CS50 HTML and CSS/Class information.md",
     "Class Notes/CS50 HTML and CSS/Search - CS50's Web Programming with Python and JavaScript.md",
     "Other Notes/Django documentation  Django documentation.md",
-    "Class Notes/CS50 HTML and CSS/Class information.md",
     "Class Notes/CS50 HTML and CSS/Week 3/Lecture 3 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3/Tasks Example Program.md",
     "Class Notes/CS50 HTML and CSS/Week 3/Django.md",
@@ -176,7 +178,6 @@
     "Class Notes/types of python.md",
     "Other Notes/HTML Programming with Visual Studio Code.md",
     "Other Notes/HTML First Start.md",
-    "Class Notes/CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/week 4",
     "Class Notes/CS50 HTML and CSS/Week 2/Lecture 2 - CS50's Web Programming with Python and JavaScript.md",
     "Class Notes/CS50 HTML and CSS/Week 3",

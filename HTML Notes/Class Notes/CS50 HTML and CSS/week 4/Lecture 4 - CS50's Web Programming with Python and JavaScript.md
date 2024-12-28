@@ -40,12 +40,30 @@ tags:
 
 ## SQL
 
-[SQL](https://www.w3schools.com/sql/), or Structured Query Language, is a programming language that allows us to update and query databases.
-
 ![SQL logo](https://cs50.harvard.edu/web/2020/notes/4/images/sql.png)
 
-### Databases
+[[SQL Tutorial|SQL]] , or Structured Query Language, is a programming language that allows us to update and query databases. It is what we call a database programming language and more in-depth in Tutorials can be found on [CS50 SQL](https://cs50.harvard.edu/sql/2024/). Here we will talk about the core basics. The current options you have for SQL are:
+- MySQL
+- PostgreSQL
+- SQLite
+and many more. But functionally they work the same and what you learn for SQLite will apply to other database programs. 
 
+> [!info]
+> Django uses SQLite by default so if you are to create test servers this is the best place to start. 
+
+### SQLite Types
+Each peace of the data within a database can be different types of data. We will use SQLite as an example. Data can be stored as:
+- Text
+- Numeric
+- Integer
+- Real
+- Blob - Binary large object. example: files
+Other database structures expand on the types a data value can be stored as adding in more and more complexity.
+
+> [!danger]
+> When deciding on the database you need to determine the data that is going to be stored, how it can be organized and how to sort it. This can help you determine what type of database you will need. 
+
+### Databases
 Before we get into how to use the SQL language, we should discuss how our data is stored. When using SQL, we’ll work with a [relational database](https://www.oracle.com/database/what-is-a-relational-database/#:~:text=A%20relational%20database%20is%20a,of%20representing%20data%20in%20tables.) where we can find all of our data stored in a number of [tables](https://www.essentialsql.com/what-is-a-database-table/). Each of these tables is made up of a set number of columns and a flexible number of rows.
 
 To illustrate how to work with SQL, we’ll use the example of a website for an airline used to keep track of flights and passengers. In the following table, we see that we’re keeping track of a number of flights, each of which has an `origin`, a `destination`, and a `duration`.
@@ -381,7 +399,7 @@ Because in this query the password checking has been commented out, the hacker c
 
 The other main vulnerability when it comes to SQL is known as a [Race Condition](https://searchstorage.techtarget.com/definition/race-condition#:~:text=A%20race%20condition%20is%20an,sequence%20to%20be%20done%20correctly.).
 
-A race condition is a situation that occurs when multiple queries to a database occur simultaneously. When these are not adequately handled, problems can arise in the precise times that databases are updated. For example, let’s say I have $150 in my bank account. A race condition could occur if I log into my bank account on both my phone and my laptop, and attempt to withdraw $100 on each device. If the bank’s software developers did not deal with race conditions correctly, then I may be able to withdraw $200 from an account with only $150 in it. One potential solution for this problem would be locking the database. We could not allow any other interaction with the database until one transaction has been completed. In the bank example, after clicking navigating to the “Make a Withdrawl” page on my computer, the bank might not allow me to navigate to that page on my phone.
+A race condition is a situation that occurs when multiple queries to a database occur simultaneously. When these are not adequately handled, problems can arise in the precise times that databases are updated. For example, let’s say I have $150 in my bank account. A race condition could occur if I log into my bank account on both my phone and my laptop, and attempt to withdraw $100 on each device. If the bank’s software developers did not deal with race conditions correctly, then I may be able to withdraw $200 from an account with only $150 in it. One potential solution for this problem would be locking the database. We could not allow any other interaction with the database until one transaction has been completed. In the bank example, after clicking navigating to the “Make a Withdrawal” page on my computer, the bank might not allow me to navigate to that page on my phone.
 
 ## Django Models
 
