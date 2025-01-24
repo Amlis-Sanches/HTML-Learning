@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "e53df271bce79013",
+    "type": "split",
+    "children": [
+      {
+        "id": "451fab28613e409a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7f6e3be102635e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 4 - CS50's Web Programming with Python and JavaScript"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "363bdc3cc8ef37f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "627ec28676faa47d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a14e173107872f7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "93aa54001b55cf51",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e0357910d3af472a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7773dd90f8b4d270",
+    "type": "split",
+    "children": [
+      {
+        "id": "71c0a72def062bd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5706b15881d803ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 4 - CS50's Web Programming with Python and JavaScript"
+            }
+          },
+          {
+            "id": "4ac358fc690dd3ef",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 4 - CS50's Web Programming with Python and JavaScript"
+            }
+          },
+          {
+            "id": "7db05ad0d7f1e734",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "17a92e177ee87664",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS50 HTML and CSS/week 4/Lecture 4 - CS50's Web Programming with Python and JavaScript.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 4 - CS50's Web Programming with Python and JavaScript"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b7f6e3be102635e7",
+  "lastOpenFiles": [
+    "types of python.md",
+    "CS50 HTML and CSS/week 0/Lecture 0 - CS50's Web Programming with Python and JavaScript.md",
+    "CS50 HTML and CSS/week 0/Search - CS50's Web Programming with Python and JavaScript.md"
+  ]
+}
